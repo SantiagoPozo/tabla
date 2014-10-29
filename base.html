@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charhset="utf-8">
+	<title>base</title>
+	<style type="text/css">
+		div {padding: 10px; border: solid 1px #ddd; }
+	</style>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+</head>
+
+<body>
+
+
+<div id="contenedor" ng-app ng-controller="go">
+	<aside>
+		<div id="tiempo">
+			<p><span id="spanTiempo">60</span></p>
+			<button id="Start" ng-click="start" >Empezar</button>
+		</div>
+		<div><span id="puntos">0</span> puntos</div>
+	</aside>
+	<section>
+		<article id="juego">
+			<div id="pregunta">Pregunta</div>
+			<div id="respuestas">
+				<button id="boton1">opción 1</button>
+				<button id="boton2">opción 2</button>
+				<button id="boton3">opción 3</button>
+				<button id="boton4">opción 4</button>
+		</article>
+
+	</section>
+</div>
+<script>
+	function $scope.start {
+		
+	}
+</script>
+
+</body>
+
+</html>
